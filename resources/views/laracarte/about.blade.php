@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    About |
+@stop
+
 @section('content')
     <div class="container">
         <h2>What is laracarte?</h2>

@@ -27,7 +27,7 @@
         }
     </style>
     <link rel="stylesheet" href="{{ asset('css/app') }}">
-    <title>Laracarte</title>
+    <title>@yield('title') Laracarte</title>
 </head>
     <body>
         @include('includes/nav')
